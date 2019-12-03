@@ -3,10 +3,10 @@ package com.annotations.group.constraints;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
-import com.annotations.group.customannotations.TestInfo;
+import com.annotations.group.customannotations.ValidateEnum;
 import com.annotations.group.enums.Colors;
 
-public class EnumValidator implements ConstraintValidator<TestInfo, Enum<?>> {
+public class EnumValidator implements ConstraintValidator<ValidateEnum, Enum<?>> {
 
 	
 	

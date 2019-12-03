@@ -17,7 +17,7 @@ import com.annotations.group.enums.Colors;
 @Documented
 @Constraint(validatedBy = EnumValidator.class)
 
-public @interface TestInfo {
+public @interface ValidateEnum {
 
 	Colors color();
 	

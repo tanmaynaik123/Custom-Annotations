@@ -1,7 +1,6 @@
 package com.annotations.group;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.Assert.assertEquals;
 
 import java.util.Set;
 
@@ -58,7 +57,7 @@ public class AnnotationTest {
 
 		UserNotNull userNotNull = new UserNotNull("BOB","A/Wing");
 		Set<ConstraintViolation<UserNotNull>>  voilation =validator.validate(userNotNull);
-		assertThat(voilation.size()).isEqualTo(1);
+		assertThat(voilation.size()).isEqualTo(2);
 	}
 
 

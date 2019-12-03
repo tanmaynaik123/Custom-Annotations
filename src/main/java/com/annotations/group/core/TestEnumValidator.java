@@ -1,14 +1,12 @@
 package com.annotations.group.core;
 
-import javax.persistence.Entity;
-
-import com.annotations.group.customannotations.TestInfo;
+import com.annotations.group.customannotations.ValidateEnum;
 import com.annotations.group.enums.Colors;
 
-@Entity
+
 public class TestEnumValidator {
 
-	@TestInfo(color=Colors.BLUE)
+	@ValidateEnum(color=Colors.BLUE)
 	private Colors color ;
 
 	

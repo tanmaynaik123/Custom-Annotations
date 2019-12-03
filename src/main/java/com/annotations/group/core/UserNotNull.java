@@ -1,8 +1,5 @@
 package com.annotations.group.core;
 
-import javax.validation.constraints.NotNull;
-
-import com.annotations.group.customannotations.ValidateEmail;
 import com.annotations.group.customannotations.ValidateFields;
 
 public class UserNotNull {
