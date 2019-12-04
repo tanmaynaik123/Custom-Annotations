@@ -12,7 +12,6 @@ import javax.validation.ValidatorFactory;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.annotations.group.core.CheckContraints;
 import com.annotations.group.core.TestEnumValidator;
 import com.annotations.group.core.UserNotNull;
 import com.annotations.group.enums.Colors;
@@ -69,10 +68,10 @@ public class AnnotationTest {
 	}
 
 
-	@Test
-	public void checkForEmail() {
-		CheckContraints  testEmail = new CheckContraints("abc1pgmail.com");
-		Set<ConstraintViolation<CheckContraints>>  voilationEmail= validator.validate(testEmail);
-		assertThat(voilationEmail.size()).isEqualTo(1);
-	}
+//	@Test
+//	public void checkForEmail() {
+//		CheckContraints  testEmail = new CheckContraints("abc1pgmail.com");
+//		Set<ConstraintViolation<CheckContraints>>  voilationEmail= validator.validate(testEmail);
+//		assertThat(voilationEmail.size()).isEqualTo(1);
+//	}
 }

@@ -2,6 +2,7 @@ package com.annotations.group.core;
 
 import com.annotations.group.customannotations.ValidateFields;
 
+
 public class UserNotNull {
 
 	
@@ -33,8 +34,5 @@ public class UserNotNull {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	
-	
-     
-	
+
 }
